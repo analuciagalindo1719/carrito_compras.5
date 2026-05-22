@@ -1,2 +1,44 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# 1. Crear una nueva rama para la funcionalidad "carrito_compras"
+
+git branch feature/carrito
+
+
+# 2. Cambiar a esa rama
+
+git checkout feature/carrito
+
+
+# 3. Crear archivo carrito.py (código básico de la clase Carrito)
+
+echo "# Clase Carrito de compras" > carrito.py
+
+echo "class Carrito:" >> carrito.py
+
+echo " def __init__(self):" >> carrito.py
+
+echo " self.items = []" >> carrito.py
+
+echo " def agregar_producto(self, producto):" >> carrito.py
+
+echo " self.items.append(producto)" >> carrito.py
+
+
+# 4. Agregar y commit en la rama
+
+git add carrito.py
+
+git commit -m "Agrega clase Carrito con método agregar_producto"
+
+
+# 5. Volver a main y fusionar (merge)
+
+git checkout main
+
+git merge feature/carrito
+
+
+# 6. Subir cambios al remoto
+
+git push origin main
