@@ -7,3 +7,30 @@ print("4. Salir")
 def mostrar_catalogo():
     print("1. Computadora - $800")
     print("2. Celular - $350")
+
+
+
+
+
+def calcular_total():
+    print("\n=== FACTURA DE COMPRA ===")
+    print("Calculando el total de los productos...")
+    print("Total a pagar: $1150")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
