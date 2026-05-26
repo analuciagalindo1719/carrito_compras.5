@@ -13,4 +13,27 @@ class Carrito:
 # Creamos un carrito de prueba
 mi_carrito = Carrito()
 mi_carrito.agregar_producto("Manzana")
-mi_carrito.agregar_producto("Leche")
+mi_carrito.agregar_producto("Leche")}
+
+
+
+print("Carrito: Sistema de pago con tarjeta")
+print("Carrito: Catálogo de productos completo")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
