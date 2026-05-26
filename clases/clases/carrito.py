@@ -21,7 +21,10 @@ print("Carrito: Sistema de pago con tarjeta")
 print("Carrito: Catálogo de productos completo")
 
 
-
+def remover_producto(self, producto):
+        if producto in self.items:
+            self.items.remove(producto)
+            print(f"Producto '{producto}' eliminado.")
 
 
 
