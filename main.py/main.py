@@ -6,4 +6,4 @@ print("4. Salir")
 
 def mostrar_catalogo():
     print("1. Computadora - $800")
-    print("2. Celular - $400")
+    print("2. Celular - $350")
